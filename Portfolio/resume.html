@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Resume | Personal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation & Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand fw-bold text-gradient" href="index.html"><i class="fas fa-layer-group me-2"></i>MyPortfolio</a>
+            
+            <!-- Collapse Menu Toggler -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Extra Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item active" href="resume.html">Detailed Resume</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-outline-light rounded-circle ms-2" id="theme-toggle" aria-label="Theme Mode Toggle">
+                        <i class="fas fa-sun" id="theme-toggle-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header & Breadcrumb -->
+    <header class="section-padding bg-body-tertiary mt-5 pt-5 pb-4 border-bottom">
+        <div class="container animate-on-scroll text-center text-md-start">
+            <!-- Breadcrumbs -->
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb justify-content-center justify-content-md-start">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Resume</li>
+                </ol>
+            </nav>
+            
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div>
+                    <h1 class="display-5 fw-bold mb-2">Curriculum Vitae</h1>
+                    <p class="text-muted mb-0">Professional experience and qualifications.</p>
+                </div>
+                <div class="mt-4 mt-md-0">
+                    <button class="btn btn-primary rounded-pill px-4 shadow-sm"><i class="fas fa-download me-2"></i>Download PDF</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Resume Content -->
+    <section class="section-padding">
+        <div class="container animate-on-scroll">
+            <div class="row g-5">
+                
+                <!-- Left Column -->
+                <div class="col-12 col-lg-8">
+                    <!-- Work Experience -->
+                    <h3 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-briefcase text-primary me-2"></i>Work Experience</h3>
+                    
+                    <div class="mb-5">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">Senior Frontend Developer</h5>
+                            <span class="badge bg-primary rounded-pill">2024 - Present</span>
+                        </div>
+                        <p class="text-muted fw-semibold mb-2">Tech Solutions Inc. • New York, NY</p>
+                        <ul>
+                            <li class="text-muted">Spearheaded the migration of the legacy codebase to a modern React and Bootstrap architecture.</li>
+                            <li class="text-muted">Optimized page load speed by 40% through code splitting and asset minification.</li>
+                            <li class="text-muted">Mentored a team of 4 junior developers in advanced CSS and JavaScript techniques.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">Web Designer & Developer</h5>
+                            <span class="badge bg-secondary rounded-pill">2019 - 2022</span>
+                        </div>
+                        <p class="text-muted fw-semibold mb-2">Creative Agency LLC • San Francisco, CA</p>
+                        <ul>
+                            <li class="text-muted">Designed and deployed over 20 responsive websites using Bootstrap and jQuery.</li>
+                            <li class="text-muted">Collaborated with marketing teams to increase conversion rates by 25% through A/B testing on landing pages.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Education Detail -->
+                    <h3 class="fw-bold border-bottom pb-2 mb-4"><i class="fas fa-graduation-cap text-primary me-2"></i>Education</h3>
+                    
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">Master of Computer Science</h5>
+                            <span class="badge bg-dark rounded-pill">Graduated 2021</span>
+                        </div>
+                        <p class="text-muted fw-semibold mb-2">RGUKT • Nuzvid, MA</p>
+                        <p class="text-muted">Focus on Human-Computer Interaction and Software Engineering. Maintained a 3.8 GPA.</p>
+                    </div>
+                </div>
+
+                <!-- Right Column (Sidebar) -->
+                <div class="col-12 col-lg-4">
+                    <div class="card border-0 shadow-sm bg-body-tertiary rounded-4 p-4 mb-4">
+                        <h4 class="fw-bold mb-4">Contact Detail</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-3"><i class="fas fa-envelope text-primary me-2"></i> hello@manoahar.com</li>
+                            <li class="mb-3"><i class="fas fa-phone text-primary me-2"></i> +1 (555) 123-4567</li>
+                            <li class="mb-3"><i class="fas fa-map-marker-alt text-primary me-2"></i> New York, NY</li>
+                            <li><i class="fas fa-globe text-primary me-2"></i> www.manoaharportfolio.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="card border-0 shadow-sm bg-body-tertiary rounded-4 p-4">
+                        <h4 class="fw-bold mb-4">Core Skills</h4>
+                        <div class="mb-2">
+                            <span class="badge bg-primary mb-2 me-1">HTML5</span>
+                            <span class="badge bg-primary mb-2 me-1">CSS3</span>
+                            <span class="badge bg-primary mb-2 me-1">JavaScript</span>
+                            <span class="badge bg-primary mb-2 me-1">jQuery</span>
+                            <span class="badge bg-primary mb-2 me-1">Bootstrap 5</span>
+                            <span class="badge bg-secondary mb-2 me-1">React</span>
+                            <span class="badge bg-secondary mb-2 me-1">Node.js</span>
+                            <span class="badge bg-secondary mb-2 me-1">Git</span>
+                            <span class="badge bg-dark mb-2 me-1">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-4 pb-3 mt-auto">
+        <div class="container text-center">
+            <p class="text-white-50 small mb-0">© 2026 MyPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

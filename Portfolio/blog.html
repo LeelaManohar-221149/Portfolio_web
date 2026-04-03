@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Personal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation & Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand fw-bold text-gradient" href="index.html"><i class="fas fa-layer-group me-2"></i>MyPortfolio</a>
+            
+            <!-- Collapse Menu Toggler -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Extra Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item active" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="resume.html">Detailed Resume</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-outline-light rounded-circle ms-2" id="theme-toggle" aria-label="Theme Mode Toggle">
+                        <i class="fas fa-sun" id="theme-toggle-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="section-padding bg-body-tertiary mt-5 pt-5 border-bottom">
+        <div class="container text-center animate-on-scroll">
+            <h1 class="display-4 fw-bold">My Blog</h1>
+            <p class="lead text-muted">Thoughts, tutorials, and journey in web development.</p>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="section-padding">
+        <div class="container animate-on-scroll">
+            <div class="row g-4 d-flex justify-content-center">
+                <!-- Blog Post 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 hover-lift border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600" class="card-img-top" alt="Blog 1">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Development</span>
+                            <h5 class="card-title fw-bold">Mastering Bootstrap 5</h5>
+                            <p class="card-text text-muted small">Learn how to leverage the full power of the Bootstrap 5 framework to build responsive sites faster.</p>
+                            <a href="#" class="btn btn-link text-decoration-none px-0 fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-muted small pb-3 px-3">
+                            <i class="far fa-calendar-alt me-1"></i> Oct 12, 2026
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 hover-lift border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600" class="card-img-top" alt="Blog 2">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Design</span>
+                            <h5 class="card-title fw-bold">UI/UX Best Practices</h5>
+                            <p class="card-text text-muted small">A comprehensive guide on creating intuitive and attractive user interfaces in 2026.</p>
+                            <a href="#" class="btn btn-link text-decoration-none px-0 fw-bold border-0">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-muted small pb-3 px-3">
+                            <i class="far fa-calendar-alt me-1"></i> Sep 28, 2026
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 hover-lift border-0 shadow-sm rounded-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" class="card-img-top" alt="Blog 3">
+                        <div class="card-body">
+                            <span class="badge bg-info text-dark mb-2">Career</span>
+                            <h5 class="card-title fw-bold">My Journey as a Dev</h5>
+                            <p class="card-text text-muted small">How I started writing code and navigated my way through the tech industry landscape.</p>
+                            <a href="#" class="btn btn-link text-decoration-none px-0 fw-bold border-0">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-muted small pb-3 px-3">
+                            <i class="far fa-calendar-alt me-1"></i> Sep 15, 2026
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Blog pagination" class="mt-5">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3 mt-auto">
+        <div class="container text-center">
+            <h5 class="text-uppercase fw-bold mb-3"><i class="fas fa-layer-group me-2"></i>MyPortfolio</h5>
+            <div class="mb-4">
+                <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="text-white-50 small mb-0">© 2026 MyPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
