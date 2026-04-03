@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // 1. Theme Toggle Logic
+  // 1. Theme toogle
   const themeToggle = $('#theme-toggle');
   const storedTheme = localStorage.getItem('theme');
   let currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
