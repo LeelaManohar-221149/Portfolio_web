@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #39ff14;
+  --primary-color:red;
   --secondary-color: #32cd32;
   --bg-color: #000000;
   --bg-secondary: #111111;
   --text-main: #ffffff;
   --text-muted: #cccccc;
-  --border-color: #333333;
+  --border-color: #454444;
   --transition-speed: 0.3s;
 }
 

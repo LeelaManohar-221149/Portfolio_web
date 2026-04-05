@@ -1,3 +1,9 @@
+
+
+
+
+
+
 $(document).ready(function() {
   // 1. Theme toogle
   const themeToggle = $('#theme-toggle');
