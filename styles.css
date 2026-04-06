@@ -1,5 +1,5 @@
 :root {
-  --primary-color:red;
+  --primary-color:rgb(18, 240, 48);
   --secondary-color: #32cd32;
   --bg-color: #000000;
   --bg-secondary: #111111;
@@ -114,6 +114,8 @@ body {
   transition: background-color var(--transition-speed);
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+  height:100px;
+  font-size:23px;
 }
 
 /* Hero Section */
